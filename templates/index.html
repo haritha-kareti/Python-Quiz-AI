@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Quiz Generator</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+    <script defer src="/static/script.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>Basic Python Quiz</h1>
+
+        <!-- QUESTION BOX -->
+        <div id="quiz-box"></div>
+
+        <!-- NAVIGATION -->
+        <div class="buttons">
+            <button onclick="prevQuestion()">⬅ Prev</button>
+            <button onclick="nextQuestion()">Next ➡</button>
+        </div>
+
+        <button class="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+
+        <h2 id="result"></h2>
+
+    </div>
+
+</div>
+
+</body>
+</html>
